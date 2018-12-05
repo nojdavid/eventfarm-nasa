@@ -1,0 +1,19 @@
+.btn {
+	position: relative;
+	height: $btn-height;
+  min-width: $btn-height;
+  line-height: $btn-height;
+  padding: 0 ($btn-height / 2); 
+
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  border-radius: $border-radius;
+  cursor: pointer;
+  font-size: 12px;
+  @include trans;
+
+  &.active {
+		background-color: grey;
+	}
+}

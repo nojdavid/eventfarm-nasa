@@ -1,0 +1,1 @@
+export const API_SYM = Symbol('APICALL');
